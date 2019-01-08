@@ -60,6 +60,7 @@ favoriteThings.brand = "none";
 */
 
 //Code here
+favoriteThings.food = "Chicken Nuggets";
 
 
 
