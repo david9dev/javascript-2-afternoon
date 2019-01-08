@@ -158,6 +158,8 @@ console.log(user2);
 
 //Code Here
 
+var methodCollection = {};
+
 
 
 /*
@@ -166,6 +168,15 @@ console.log(user2);
 */
 
 //Code Here
+methodCollection.alertHello = function()
+{
+  alert('hello');
+}
+
+methodCollection.logHello = function()
+{
+  console.log('hello');
+}
 
 
 
@@ -174,6 +185,8 @@ console.log(user2);
 */
 
 //Code Here
+methodCollection.alertHello();
+methodCollection.logHello();
 
 
 
@@ -186,6 +199,17 @@ console.log(user2);
 
 //Code Here
 
+function makePerson(name, birthday, ssn)
+{
+  var person = 
+  {
+    name: name,
+    birthday: birthday,
+    ssn: ssn,
+  }
+  return person;
+}
+
 
 
 ////////// PROBLEM 7 //////////
@@ -196,5 +220,16 @@ console.log(user2);
 */
 
 //Code Here
+function makeCard(cardNumber, expirationDate, securityCode)
+{
+  var card = 
+  {
+    cardNumber: cardNumber,
+    experationDate: expirationDate,
+    securityCode: securityCode
+  }
+
+  return card;
+}
 
 
