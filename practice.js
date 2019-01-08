@@ -33,6 +33,15 @@ alert(me.name);
 */
 
 //Code here
+var favoriteThings =
+{
+  band: "none",
+  food: "mexican",
+  person: "me",
+  book: "none",
+  movie: "gladiator",
+  holiday: "Christmas"
+}
 
 
 
@@ -41,6 +50,8 @@ alert(me.name);
 */
 
 //Code here
+favoriteThings.car = "ferarri";
+favoriteThings.brand = "none";
 
 
 
