@@ -124,7 +124,17 @@ var user2 = {
 */
 
 //Code Here
+function updateUserInfo(obj, newName , newEmail)
+{
+  obj.name = newName;
+  obj.email = newEmail
 
+  return obj;
+}
+
+updateUserInfo(user2, 'Tyler S. McGinnis', 'tyler.mcginnis@devmounta.in');
+
+console.log(user2);
 
 
 
