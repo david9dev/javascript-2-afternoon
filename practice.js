@@ -15,6 +15,13 @@
 */
 
 //Code here
+var me = 
+{
+  name: "David",
+  age: "24"
+};
+
+alert(me.name);
 
 
 
